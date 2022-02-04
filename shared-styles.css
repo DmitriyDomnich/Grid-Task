@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  padding: 8px;
+}
+#container {
+  display: grid;
+  height: 100%;
+  gap: 10px;
+}
+.block {
+  border-radius: 8px;
+  background-color: #191919;
+  padding: .5rem;
+}

@@ -1,0 +1,21 @@
+@import url('../shared-styles.css');
+
+#container {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 50px;
+  color: #fff;
+}
+.A {
+  grid-column: 2 span;
+}
+.G {
+  grid-row: span 2;
+}
+.K {
+  grid-column: span 3;
+}
+.block {
+  border-radius: 8px;
+  background-color: #191919;
+  padding: .5rem;
+}

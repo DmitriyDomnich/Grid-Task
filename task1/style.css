@@ -1,0 +1,38 @@
+@import url('../shared-styles.css');
+
+#container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  font-size: 44px;
+}
+
+.vertical-rect {
+  width: 50%;
+}
+.horizontal-rect {
+  background-color: #0000fd;
+  width: 100%;
+}
+
+.orange {
+  justify-self: end;
+  background-color: orange;
+}
+.pink {
+  justify-self: start;
+  background-color: hotpink;
+}
+.green {
+  justify-self: center;
+  background-color: lightgreen;
+}
+
+.vertical-rect,
+.horizontal-rect {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+}
